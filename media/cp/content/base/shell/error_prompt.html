@@ -1,0 +1,43 @@
+<style>
+.error_container {
+  position: relative;
+  text-align: center;
+  /*top: 50%;
+  left: 50%;*/
+}
+.error_text {
+  font-family: cpBurbankMedium;
+  word-break: break-word;
+  width: 80%;
+  line-height: 110%;
+  font-size: 20px;
+  padding-top: 10%;
+  
+}
+.footer_text {
+	font-family: cpBurbankMedium;
+	font-size: 9px;
+	float: right;
+	padding-right: 2px;
+}
+.error_content{
+	position: absolute;
+  	width: 95%;
+  	height: 85%;
+  	transform: translate(2.5%, -108%);
+
+}
+</style>
+
+<div class="error_container" id="errContainer">
+	<img src="/media/cp/content/base/shell/error_background.png" width="100%" id="errPrompt"/>
+	<center>
+		<div class="error_content" id="errContent">
+			<div class="error_text" id="errText"></div><br>
+				<input type="image" src="/media/cp/content/base/shell/error_button.png" id="errBtn"/><br>
+				<span class="footer_text" id="errId"></span>
+
+		</div>
+
+	</center>
+</div>

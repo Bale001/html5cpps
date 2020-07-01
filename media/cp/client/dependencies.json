@@ -1,0 +1,36 @@
+{
+  "boot": [
+    {
+      "id": "crumbs",
+      "key": "crumbs",
+      "scene": false
+    },
+    {
+      "id": "handlers",
+      "key": "handlers",
+      "scene": false
+    },
+    {
+      "id": "airtower",
+      "key": "airtower",
+      "scene": false
+    },
+    {
+      "id": "shell",
+      "key": "shell",
+      "scene": false
+    },
+    {
+      "id": "hash",
+      "key": "hash",
+      "scene": false
+    }
+  ],
+  "login": [
+    {
+      "id": "login",
+      "key": "login",
+      "scene": false
+    }
+  ]
+}
